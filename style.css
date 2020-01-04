@@ -1,0 +1,84 @@
+body {
+    background: #2b2b2b;
+    margin: 0;
+}
+.slider {
+    width: 550px;
+    height: 300px;
+    margin: 100px auto;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.img {
+    text-align: center;
+    line-height: 300px;
+    position: absolute;
+    font-size: 50px;
+    color: #fff;
+    display: none;
+}
+.img.curry {
+    display: block;
+}
+.img:first-child {
+    width: 500px;
+    background: #CA0F1F;
+}
+.img-2 {
+    width: 500px;
+    background: rgb(10, 214, 221);
+}
+.img-3 {
+    width: 500px;
+    background: rgb(87, 221, 10);
+}
+.img-4 {
+    width: 500px;
+    background: rgb(10, 13, 221);
+}
+.img-5 {
+    width: 500px;
+    background: rgb(221, 10, 221);
+}
+.n {
+    color: aqua;
+}
+a {
+    text-decoration: none;
+    color: blueviolet;
+    font-size: 20px;
+}
+a:hover {
+    color: brown;
+}
+.prev {
+    position: relative;
+    top: 240px;
+    left: 0px;
+}
+.next {
+    position: relative;
+    top: 240px;
+    right: 0px;
+}
+.right {
+    right: 260px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.left {
+    left: 260px;
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+.arrow {
+    position: absolute;
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 20px;
+    cursor: pointer;
+}
